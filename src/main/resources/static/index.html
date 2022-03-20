@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Clientes Repsol</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      #formulario{
+          margin-left:0px;
+      }
+      #cvv{
+          margin-left:250px;
+      }
+      #codigos{
+          margin-right: 50px;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-light">
+        <main>
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="https://www.bankinter.com/file_source/blog/Contents/A-Imagenes/Empresas/logo-repsol.jpg" alt="" width="72" height="57">
+                <h2>Aun no eres cliente de Repsol?</h2>
+                <p class="lead">Crea tu cuenta con nosotros</p>
+            </div>
+            <div class="row g-5" id="codigos">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-primary">Tus codigos</span>
+                        <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Promocion VIP</h6>
+                                <small class="text-muted">Cliente VIP</small>
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Promocion Premium</h6>
+                                <small class="text-muted">Cliente Premium</small>
+                            </div>
+                            <span class="text-muted">$18</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Codigo Estandar</h6>
+                                <small class="text-muted">Cliente estandar</small>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <div class="text-success">
+                                <h6 class="my-0">Promo code</h6>
+                                <small>EXAMPLECODE</small>
+                            </div>
+                            <span class="text-success">−$5</span>
+                        </li>
+                    </ul>
+                </div>
+        
+        <div class="col-md-7 col-lg-8" id="formulario">
+            <h4 class="mb-3">Bienvenido</h4>
+            <div class="form">
+                <h4 class="mb-3">Rellena sus Datos: </h4> <br>
+                <br>
+                <div class="row g-3">
+                    <div class="col-12">
+                      <label for="firstName" class="form-label">Nombre: </label>
+                      <input id="inputName" type="text" />
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-12">
+                       <label for="lastName" class="form-label">Apellido: </label>
+                       <input id="inputSurname" type="text" />
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-12">
+                        <label for="username" class="form-label">Usuario:  </label>
+                        <input id="inputUsername" type="text" />
+                        </div>
+                      </div>
+                    <br>
+                    <div class="col-12">
+                        <label for="Age" class="form-label">Edad:  </label>
+                        <input id="inputAge" type="number" />
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <label for="address" class="form-label">Direccion: </label>
+                        <input id="inputAddress1" type="text" />
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <label for="address2" class="form-label">Direccion 2 <span class="text-muted">(Optional)</span></label>
+                        <input id="inputAddress2" type="text" placeholder="Apartment or suite">
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <label for="Zip" class="form-label">Zip:  </label>
+                        <input id="inputZip" type="number" />
+                    </div>
+                    <hr class="my-4">
+
+                    <h4 class="mb-3">Pago</h4>
+                    <div class="row gy-3">
+                        <div class="col-md-6">
+                            <label for="cc-name" class="form-label">Nombre en la Tarjeta: </label>
+                            <input id="inputCardName" type="text"/>
+                        </div>
+                        <br>
+                        <div class="col-md-6">
+                            <label for="cc-number" class="form-label">Numero de Tarjeta: </label>
+                            <input id="inputCardNumber" type="text"/>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="cc-expiration" class="form-label">Fecha: </label>
+                            <input id="inputCardDate" type="text"/>
+                        </div>
+
+                        <div class="col-md-3" id="cvv">
+                            <label for="cc-cvv" class="form-label">CVV</label>
+                            <input id="inputCardCvv" type="number"/>
+                        </div>
+                    </div>
+                <br>
+                <div><button onclick="getContactData()">Enviar</button></div>
+            </div>
+        </div>
+        </div>
+    </main>
+    </body>
+
+    <script>
+        const getContactData = async () => {
+            let inputName = document.getElementById("inputName").value;
+            let inputSurname = document.getElementById("inputSurname").value;
+            let inputUsername=document.getElementById("inputUsername").value;
+            let inputAge = document.getElementById("inputAge").value;
+            let inputAddress1 = document.getElementById("inputAddress1").value;
+            let inputAddress2 = document.getElementById("inputAddress2").value;
+            let inputZip = document.getElementById("inputZip").value;
+            let inputCardName = document.getElementById("inputCardName").value;
+            let inputCardNumber = document.getElementById("inputCardNumber").value;
+            let inputCardDate = document.getElementById("inputCardDate").value;
+            let inputCardCvv = document.getElementById("inputCardCvv").value;
+
+
+
+
+            let request = await fetch("/contacts", {
+                method:"POST", //voy a hacer un post
+                credentials: "same-origin",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body:JSON.stringify({
+                    name:inputName,
+                    surname: inputSurname,
+                    username:inputUsername,
+                    age:inputAge,
+                    address1: inputAddress1,
+                    address2: inputAddress2,
+                    zip: inputZip,
+                    cardName: inputCardName,
+                    cardNumber: inputCardNumber,
+                    cardDate: inputCardDate,
+                    cardCvv: inputCardCvv,
+                }), 
+                dataType: "json", //envio info al servidor 
+            });
+            //pongo /contacts pq no se donde esta 
+            if (request.ok){
+                alert("Tus datos se han registrado correctamente!")
+                console.log(await request.json());
+            }
+        };
+    </script>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017–2021 Company Name</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+    </footer>
+</div>
+
+
+<script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="form-validation.js"></script>
+</html>
